@@ -1,0 +1,280 @@
+nav{
+    background-color:#252529;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    position: fixed;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#maindiv{
+    margin: 0px;
+    background-image: url(../Assets/showcase.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;   
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.navigation{
+    /* border: 1px solid black ; */
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;    
+    line-height: 50px;
+}
+.navigation:hover{
+    transform: scale(1.03,1.03);
+    background-color:#333;
+
+}
+.anchor{
+    text-align: center;
+    text-decoration: none;
+    /* position: relative; */
+    top: 15px  ;
+    color: white;    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+/* #itunes{
+    background-image: url(../Assets/showcase.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} */
+#header1{
+    font-size: 60px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin-top: 160px;
+   
+}
+.division{
+    border:  1px solid black;
+}
+#itunes{
+    height: 98vh;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 265px;
+    font-size: 32px;
+}
+#para1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif ;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    word-spacing: -2px;
+}
+
+
+i{
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+#music{
+    background-color: #252529; color: white;
+    text-align: center;
+    /* position: relative; */
+    max-height: 1180px;
+}
+
+#musicfont{
+    font-family:"Font Awesome 5 Free" ;
+    /* position: static; */
+    /* left: 180px;
+    top: 10px; */
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+#para2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+#start{
+    background-color:#b90415;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    /* position: relative; */
+    /* bottom: 60px; */
+}
+#start:hover{
+    background-color: #d3071b;  
+}
+#para3{
+    font-family: 'PT Sans', sans-serif;
+    /* position: relative; */
+    /* margin-bottom: 50px; */
+}
+#png1{
+  width: 73%;  
+}
+/* #itunes+#music{
+    margin: 0px;
+} */
+#Video{
+     max-height: 1180px;
+     text-align: center;
+     font-family: 'PT Sans', sans-serif;
+     background-color: #f4f4f4;
+     color: #333;
+}
+#anchor2{
+    margin-top: 90px;
+    text-decoration: none;
+    /* border: 1px solid black;  */
+   
+    padding-left: 15px;
+    padding-right: 15px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;
+   background-color: #103063;
+}
+#anchor2:hover{
+    background-color: #143f85;
+}
+#head3{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+
+#para4{
+   margin-left: 80px;
+   margin-right: 80px;  
+    
+   font-size: 20px;
+} 
+#png2{
+    width: 70%;
+    margin-top: 30px;
+}
+#blue{
+    height: 90vh;
+    border: 1px solid black;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(../Assets/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+#world{
+    color: #f4f4f4;
+    padding-top: 150px;
+}
+#para5{
+    color: #f4f4f4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 30px;
+    line-height: 32px;
+}
+#par6{
+    margin-left: 400px;
+    margin-top: 100px;
+    border: 1px solid black;
+    margin-right: 100px;
+}
+#gift{
+    height: 70vh;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+#giftimg{
+    height: 350px;
+    width: 550px;
+    /* border: 2px solid black; */
+    padding-left: 100px;
+}
+#headgift{
+    position: relative;
+    right: 270px;
+    margin-top: 60px;
+}
+#paradiv{
+    flex-direction: row;
+    justify-content: baseline;
+    width: 600px;
+    line-height: 30px;
+}
+#icon1{
+    font-style: normal;
+    font-size:medium;
+}
+#anchor3{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color: #333333;
+}
+#footer{
+    background-color: #252529;
+    height: 50vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+}
+#footerdiv{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color:#f4f4f4;
+    width: 290px;
+    margin-top: 30px;
+}
+#anchor4{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color:#f4f4f4;
+    line-height: 25px;
+}
+#shop{
+    color:#f4f4f4;   
+}
+#copyright{
+    height: 50px;
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    line-height: 50px;
+}
